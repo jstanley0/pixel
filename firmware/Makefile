@@ -1,7 +1,7 @@
 DEVICE     = attiny85
 CLOCK      = 8000000
 PROGRAMMER = -c usbtiny
-OBJECTS    = main.o patterns.o
+OBJECTS    = main.o
 FUSES      = -U hfuse:w:0xdf:m -U lfuse:w:0xe2:m
 
 # Tune the lines below only if you know what you are doing:
